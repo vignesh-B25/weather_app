@@ -1,0 +1,32 @@
+* {
+  background-color: whitesmoke;
+
+}
+h1{
+  margin-left: 40%;
+}
+.form{
+  background-color: green;
+  width: 40%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 30%;
+}
+label{
+  background: none;
+  margin: 10px;
+}
+input{
+  width: 40%;
+  height: 26px;
+  border: none;
+}
+#btn{
+  width: 20%;
+  color: white;
+  background-color: black;
+   border-radius: 5px;
+   height: 30px;
+}
+
