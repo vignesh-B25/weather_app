@@ -1,4 +1,4 @@
-Import the Weatherapp.js file in to the index.js file.
+Import the Weather.js file in to the index.js file.
 
 
 
