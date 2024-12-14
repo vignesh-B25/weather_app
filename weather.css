@@ -1,0 +1,152 @@
+*{
+ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-image: url('https://as2.ftcdn.net/v2/jpg/10/88/43/31/1000_F_1088433185_G55I1fSBv5fhV1tvGZ4RmjVt8HYTCsl6.jpg');
+   width:'100%';
+    height:'100vh';
+   background-repeat:'no-repeat';
+  background-size:"cover"; */
+}
+.weather{
+    display: flex;
+    margin: 80px;
+    margin-top: 50px;
+    width: 80%;
+   
+    gap: 20px;
+    border-radius: 8px;
+    opacity: 0.5;
+    justify-content: center;
+
+}
+.jii{
+    text-align: center;
+    
+}
+
+input{
+    border-radius: 9px;
+    border-color: black;
+    background: none;
+    
+}
+::placeholder{
+    color: black;
+}
+
+button{
+    background-color:rgb(8, 8, 8) ;
+    color: white;
+    font-size: 15px;
+    border-radius: 9px;
+}
+
+#td{
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+    margin: 40px;
+    height: 70%;
+    width: 30%;
+    border-radius: 20px;
+    color: white;
+
+}
+#sky {
+    width:100px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
+#loc{
+background:none;
+font-size: 25px;
+}
+
+#temp{
+    background:none;
+    font-size: 30px;
+}
+#we{
+    background:none;
+    font-size: 25px;
+}
+#htw{
+    background-color: rgb(19, 18, 18);
+    width: 40%;
+    height: 70%;
+    margin: 40px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    border-radius: 20px;
+}
+#hum{
+    background-color: black;
+    width: 30%;
+    height: 15%;
+    border-radius: 5px;
+    font-size: 25px;
+    border-color: black;
+    border-style: solid;
+} 
+#t{
+    background-color: black;
+    width: 30%;
+    height: 15%;
+    border-radius: 5px;
+    font-size: 15px;
+    border-color: black;
+    border-style: solid;
+}
+ #ws{
+    background-color: black;
+    width: 30%;
+    height: 15%;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    
+}
+/* Responsive desing for Tablet */
+@media screen and (min-width:800px) and (max-width:1200px){
+    .weather{
+        display: block;
+        margin: 50px;
+        margin-top: 50px;
+        width: 80%;
+       
+        gap: 15px;
+        border-radius: 6px;
+        opacity: 0.5;
+        justify-content: center;
+    
+    }
+    #td{
+        background-color: rgb(19, 18, 18);
+        text-align: center;
+        margin: 40px;
+        height: 100%;
+        width: 60%;
+        border-radius: 20px;
+        color: white;
+    
+    }
+}
+@media screen and (max-width: 799px) {
+    .weather {
+        flex-direction: row;
+    }
+    #td {
+        display: block;
+        
+        text-align: center;
+        height: 90vh; 
+        width: 100vw; 
+        
+    }
+}
